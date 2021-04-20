@@ -27,6 +27,9 @@ We performed extensive EDA in Tableau and Python to familiarize ourselves with t
 ![solarized palette](https://github.com/jpadolina/hackathon/blob/main/intake_forecast.PNG)
 
 
+# Model Performance
+Our forecasting model had an AIC of 16,702.0405 and a variance of 69.3871. The resulting model from BigQuery is ARIMA(0,1,5).
+
 # Conclusions
 We observe that both adoptions and intake were reduced compared to expectations under normal conditions; however, intake is taking longer to catch up to expectations, while adoption faced a boon thanks to the surge in interest during the pandemic. Shelters may be empty now but the reality is that there may be more animals being turned down due to lack of capacity, resources, and the need to preserve a favorable live release rate.
 The culmination of this analysis resulted in a hypothesis that intake was severely restricted by the pandemic, despite there being a visible need for higher intake due to the pandemic forcing people out of jobs and homes and needing to give up their animals. Additionally, increasing intake leads to more adoptions (the public cannot adopt if there are not enough animals available). We found that the live release rate for cats dipped severely in May 2020 (Tableau workbook, not in repo). Increase intake and adoptions may remedy this. Our pitch deck (not in repo) also lay out other recommendations for practically reaching this goal.
