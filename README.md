@@ -20,7 +20,9 @@ The culmination of this analysis resulted in a hypothesis that intake was severe
 
 # Technologies Used
 EDA done in Tableau
+
 Data cleaning and further EDA done in Python
+
 Modeling done in Google BigQuery
 
 # References
