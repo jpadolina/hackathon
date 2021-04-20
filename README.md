@@ -22,3 +22,9 @@ The culmination of this analysis resulted in a hypothesis that intake was severe
 EDA done in Tableau
 Data cleaning and further EDA done in Python
 Modeling done in Google BigQuery
+
+# References
+Texas Vaccine Rollout Information https://www.kxan.com/texas-coronavirus-vaccine/maps-how-many-people-are-fully-vaccinated-against-covid-19-in-your-zip-code/
+ASPCA COVID-19 Relief & Recovery Initiative https://www.aspca.org/about-us/press-releases/aspca-commits-5-million-covid-19-relief-recovery-initiative-help-animal
+How local animal shelters successfully navigated the pandemic https://www.abc10.com/article/news/local/sacramento/local-animal-shelters-pandemic-positive/103-debcc7d2-d711-40e6-9abb-87ef76d58a31
+The Bay Area went crazy for pandemic Pets https://www.sfchronicle.com/local/article/The-Bay-Area-went-crazy-for-pandemic-pets-What-16098575.php?utm_source=newsletter&utm_medium=email&utm_content=briefing&utm_campaign=sfc_baybriefing_am&sid=5beb0817cac67b0a4039df1e#photo-20863484
