@@ -1,0 +1,33 @@
+### This script is to be used in Google Cloud Platform's BigQuery SQL Workspace
+
+# Build ARIMA model
+CREATE OR REPLACE MODEL forecast.adopt_model
+  OPTIONS(
+    MODEL_TYPE='ARIMA_PLUS',
+    TIME_SERIES_TIMESTAMP_COL='Date',
+    TIME_SERIES_DATA_COL='Count',
+    TIME_SERIES_ID_COL='Metric',
+    HOLIDAY_REGION='US'
+  ) AS
+  SELECT
+    Date,
+    Count,
+    Metric
+  FROM
+    `neon-webbing-310703.forecast.table2`
+;
+
+# Evaluate and check performance
+SELECT
+ *
+FROM
+ ML.ARIMA_EVALUATE(MODEL forecast.adopt_model)
+;
+
+# Forecast the next year after the start of COVID
+SELECT
+ *
+FROM
+ ML.EXPLAIN_FORECAST(MODEL forecast.adopt_model,
+                     STRUCT(365 AS horizon, 0.9 AS confidence_level))
+;
