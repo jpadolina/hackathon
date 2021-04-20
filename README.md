@@ -14,6 +14,17 @@ This dataset has inspired countless data projects throughout the years, which ca
 # Analysis
 We performed extensive EDA in Tableau and Python to familiarize ourselves with the data. In our Tableau workbook, more emphasis is placed on the live release rate for different animals. In our Python script, we focus on animal characteristics and visualize trends. One goal of our analysis is to forecast adoption and intake during the COVID-19 pandemic, if the shelter had operated under normal conditions. This was done by cutting off the data just before the shelter closed on 3/16/2020, and forecasting the period of a year afterwards. We then compared that period to the actual trends in Tableau. 
 
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/covid_Cases.PNG)
+
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/eda_intake.PNG)
+
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/intake_type.PNG)
+
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/adoption_forecast.PNG)
+
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/intake_forecast.PNG)
+
+
 # Conclusions
 We observe that both adoptions and intake were reduced compared to expectations under normal conditions; however, intake is taking longer to catch up to expectations, while adoption faced a boon thanks to the surge in interest during the pandemic. Shelters may be empty now but the reality is that there may be more animals being turned down due to lack of capacity, resources, and the need to preserve a favorable live release rate.
 The culmination of this analysis resulted in a hypothesis that intake was severely restricted by the pandemic, despite there being a visible need for higher intake due to the pandemic forcing people out of jobs and homes and needing to give up their animals. Additionally, increasing intake leads to more adoptions (the public cannot adopt if there are not enough animals available). We found that the live release rate for cats dipped severely in May 2020 (Tableau workbook, not in repo). Increase intake and adoptions may remedy this. Our pitch deck (not in repo) also lay out other recommendations for practically reaching this goal.
