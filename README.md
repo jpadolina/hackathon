@@ -14,11 +14,13 @@ This dataset has inspired countless data projects throughout the years, which ca
 # Analysis
 We performed extensive EDA in Tableau and Python to familiarize ourselves with the data. In our Tableau workbook, more emphasis is placed on the live release rate for different animals. In our Python script, we focus on animal characteristics and visualize trends. One goal of our analysis is to forecast adoption and intake during the COVID-19 pandemic, if the shelter had operated under normal conditions. This was done by cutting off the data just before the shelter closed on 3/16/2020, and forecasting the period of a year afterwards. We then compared that period to the actual trends in Tableau. 
 
-![solarized palette](https://github.com/jpadolina/hackathon/blob/main/covid_Cases.PNG)
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/covid_Cases.png)
 
-![solarized palette](https://github.com/jpadolina/hackathon/blob/main/eda_intake.PNG)
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/eda_intake.png)
 
-![solarized palette](https://github.com/jpadolina/hackathon/blob/main/intake_type.PNG)
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/intake_type.png)
+
+![solarized palette](https://github.com/jpadolina/hackathon/blob/main/cat_dog_live_release.PNG)
 
 ![solarized palette](https://github.com/jpadolina/hackathon/blob/main/adoption_forecast.PNG)
 
